@@ -60,6 +60,8 @@ public class LearningHashMaps {
             Integer value = dataMap.get(key);
             System.out.println("Key: " + key + ", Value: " + value);
         }
+        dataMap.remove("china");
+        System.out.println(dataMap);
 
 
 
